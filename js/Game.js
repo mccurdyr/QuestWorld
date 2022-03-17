@@ -2,7 +2,7 @@ import skills from "./fragments/skills.js";
 import Player from "./characters/Player.js";
 
 const containerEl = document.querySelector(".container");
-let showElements = false;
+const downBtns = document.querySelectorAll(".down")
 
 //Start Button Stuff
 const startButton = document.createElement("button");
@@ -15,23 +15,14 @@ startButton.addEventListener("click", () => {
   console.log(`Player name: ${playerName}`);
   containerEl.removeChild(startButton);
 
+  // checkPoints();
+
   //skill allocation start
   containerEl.innerHTML += skills();
-//   if (player.sp === 0) {
-//     containerEl.remove(skills());
+});
+
+// function checkPoints() {
+//   if(player.sp>=sa){
+
 //   }
-});
-
-const toggleEl = document.querySelector("down");
-function showButtons() {
-  toggleEl.classList.toggle("hidden");
-//   if (showElements) {
-//     showElements = true;
-  }
-
-const levelBtn = document.createElement("button");
-containerEl.appendChild(levelBtn);
-levelBtn.innerText = "Stats";
-levelBtn.addEventListener("click", () => {
-  showButtons();
-});
+// }

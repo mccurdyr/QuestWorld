@@ -11,7 +11,7 @@ export default class Player {
         this.luck = 0;
         this.exp = 0;
         this.lvl = 1;
-        this.sp = 20;
+        this.sp = 0;
         this.expNeeded = 100;
     }
 
