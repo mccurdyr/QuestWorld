@@ -10,7 +10,7 @@ export default function skills() {
     <button class="down" id="spAtkDown">SpecialAttack-</button>
 
     <button class="up" id="spDefUp">SpecialDefense+</button>
-    <button class="down" id="spDefUp">SpecialDefense-</button>
+    <button class="down" id="spDefDown">SpecialDefense-</button>
 
     <button class="up" id="hpUp">HP+</button>
     <button class="down" id="hpDown">HP-</button>

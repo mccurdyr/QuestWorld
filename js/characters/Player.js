@@ -1,4 +1,4 @@
-
+// import Allocate from "./SkillFuncs.js";
 
 export default class Player {
     constructor(name){
@@ -17,7 +17,7 @@ export default class Player {
 
     createCharacter() {
         console.log("Allocate your skill points!");
-        
+        Allocate;
         
 
     }
@@ -28,10 +28,6 @@ export default class Player {
             this.expNeeded *= 1.10;
             this.sp += 1;
         }
-    }
-
-    spendPoint(){
-        
     }
 
 
